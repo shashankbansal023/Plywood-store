@@ -44,7 +44,7 @@ export default function Navbar() {
             </section>
             <section className="flex items-center md:hidden">
                 <div className="flex items-center">
-                <Link href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
+                <Link target="_blank" href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
                      <Image
                         alt="Krishna Timber and Plywood Logo"
                         src={phoneIcon}

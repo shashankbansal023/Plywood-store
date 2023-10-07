@@ -206,7 +206,7 @@ export default function Categories({params} : {params: {id :string }}) {
             <div className="flex">
                 <Footer/>
             </div>
-            <Link href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[70vh]'>
+            <Link target="_blank" href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[70vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}

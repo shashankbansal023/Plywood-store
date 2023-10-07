@@ -5,12 +5,8 @@ import plywoodPic from '../components/Images/plywood-pic.webp';
 import plywoodCategoryPic from '../components/Images/plywood-img.jpeg';
 import hdhmrBoardPic from '../components/Images/icons8-whatsapp-color/hdhmr-board.png';
 import Link from 'next/link';
-import backgroundImg from '../components/Images/background-img.jpeg';
-import sunmicaLaminatesSheet from '../components/Images/sunmica-laminate-sheet.jpeg';
 import sunmicaLaminate from '../components/Images/sunmica-laminate.jpeg';
 import flushDoor from '../components/Images/flush-door.jpeg';
-// import bestQuality from '../components/Images/best-quality.jpeg';
-// import bestQuality from '../components/Images/best-quality-img.jpeg'
 import whatsappLogo from '../components/Images/whatsapp-icon.gif';
 import bestQualityPic from '../components/Images/icons8-whatsapp-color/best-quality.jpeg';
 import bestPricePic from '../components/Images/icons8-whatsapp-color/best-price.jpeg';
@@ -30,7 +26,7 @@ export default function Home() {
         <Navbar/>
       </div>
       <div className='w-[100vw] p-0'>
-      <Image
+        <Image
           src={plywoodPic}
           objectFit='contain'
           alt="Krishna Timber and Plywood | Plywood, HDHMR board , laminates , MDF at best prices."
@@ -101,7 +97,7 @@ export default function Home() {
             />
         </div>
         <Footer/>
-        <Link href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[70vh]'>
+        <Link target='_blank' href="https://wa.me/9899027343" className='bg-transparent fixed z-200 right-[50px] top-[70vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}
