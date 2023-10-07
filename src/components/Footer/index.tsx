@@ -1,6 +1,7 @@
 import Link from "next/link"
 import logo from '../Images/krishna-timber-and-plywood-logo-zip-file/svg/logo-black.svg'
 import Image from "next/image"
+import phoneIcon from '../Images/icons8-call .gif';
 
 export default function Footer(){
     return (
@@ -12,10 +13,9 @@ export default function Footer(){
             <h1 className="font-medium">Krishna Timber and Plywood</h1>
             </div>
             
-            <div className="flex flex-col gap-[10px] ml-[100px]">
+            <div className="flex flex-col gap-[10px]">
              <h1 className="text-lg font-medium  text-black">Menu</h1>   
-             <div className="flex flex-wrap">
-                <div className="flex flex-col gap-[10px]">
+             <div className="grid grid-cols-2 gap-3">
                     <Link href="/categories/plywood" className="text-sm">
                     Plywood
                     </Link>
@@ -25,27 +25,32 @@ export default function Footer(){
                     <Link href="/categories/laminates"   className=" text-sm">
                         Sunmica Laminates
                     </Link>
-                </div>
-                <div className="flex flex-col gap-[10px] ml-[20px]">
+            
                     <Link href="/categories/flush-door"  className="text-sm">
                         Flush Door
                     </Link>
                     <Link href="/categories/mdf"  className="text-sm">
                         MDF
                     </Link>
-                </div>
-
              </div>
             
             </div>
-            <div className="flex flex-col  w-[200px] ml-[50px]">
+            <div className="flex flex-col  w-[200px]">
                 <h1 className="font-medium mb-[10px]">Address</h1>
                 <div className="text-sm">
                     Krishna Timber and Plywood , 
                     831 A, Ward No. 8 , Mehrauli , New Delhi - 110030
                 </div>
-                <div className="mt-[10px] font-bold">+91-9899027343</div>
+               
             </div>
+            <Link href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
+                     <Image
+                        alt="Krishna Timber and Plywood Logo"
+                        src={phoneIcon}
+                        style={{ width:"30px" , height:"30px", color: 'white'}}
+                    />
+                    +91-9899027343
+            </Link>
             
         </div>
     )

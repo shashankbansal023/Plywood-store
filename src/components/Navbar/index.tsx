@@ -33,7 +33,7 @@ export default function Navbar() {
                         src={phoneIcon}
                         style={{ width:"30px" , height:"30px", color: 'white'}}
                     />
-                    9899027343
+                    +91-9899027343
             </Link>
             <Link href="/categories/plywood" className=" text-sm">Plywood</Link>
             <Link href="/categories/hdhmr" className=" text-sm">HDHMR</Link>
@@ -60,14 +60,14 @@ export default function Navbar() {
                     />
                 </Link>
                 </div>
-                <div className={`flex flex-col items-center justify-center gap-2 bg-white overflow-hidden absolute top-0 left-0 w-[100vw] h-[100%] ${!isMenuOpen ?'hidden' : ''}`}>
-                    <Link href="" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] top-2 right-2 absolute font-bold" onClick={() => setMenuOpen(false)}>
+                <div className={`flex flex-col items-center justify-center gap-2 bg-white absolute top-0 left-0 w-[100vw] h-[100vh] ${!isMenuOpen ?'hidden' : 'overflow-hidden'}`}>
+                    <button className="flex gap-[5px] text-sm mt-[5px] mr-[20px] top-2 right-2 absolute font-bold" onClick={() => setMenuOpen(false)}>
                         <Image
                             alt="Menu Icon"
                             src={crossIcon}
                             style={{ width:"30px" , height:"30px", color: 'white'}}
                         />
-                    </Link>
+                    </button>
                     <Link href="/categories/plywood" className="text-lg">Plywood</Link>
                     <Link href="/categories/hdhmr" className=" text-lg">HDHMR</Link>
                     {/* <Link href="/categories/block-board" className=" text-sm">Block Board</Link> */}

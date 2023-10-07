@@ -10,6 +10,7 @@ import flushDoor from '../components/Images/flush-door.jpeg';
 import whatsappLogo from '../components/Images/whatsapp-icon.gif';
 import bestQualityPic from '../components/Images/icons8-whatsapp-color/best-quality.jpeg';
 import bestPricePic from '../components/Images/icons8-whatsapp-color/best-price.jpeg';
+import phoneIcon from '../components/Images/redphoneIcon.png';
 
 export const metadata: Metadata = {
   title: 'Krishna Timber and Plywood | Buy Plywood, HDHMR board , Flush Door at Best Prices - Dealers & Suppliers , Retailers',
@@ -97,11 +98,18 @@ export default function Home() {
             />
         </div>
         <Footer/>
-        <Link target='_blank' href="https://wa.me/9899027343" className='bg-transparent fixed z-200 right-[50px] top-[70vh]'>
+        <Link target='_blank' href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[69vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}
             src={whatsappLogo}
+          />
+        </Link>
+        <Link target="_blank" href="tel:9899027343" className='md:hidden fixed z-200 left-[50px] top-[70vh]'>
+          <Image
+            alt="phoneIcon"
+            style={{width:'50px' , height: '50px'}}
+            src={phoneIcon}
           />
         </Link>
     </main>

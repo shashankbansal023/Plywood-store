@@ -26,6 +26,7 @@ import sunmicaLight from '../../../components/Images/sunmica-light-brown.jpeg';
 import sunmicaWhite from '../../../components/Images/sunmica-white.jpeg';
 import sunmicaDark from '../../../components/Images/sunmica-dark-brown.jpeg';
 import sunmicaDarkImage from '../../../components/Images/sunmica-dark-image.jpeg';
+import phoneIcon from '../../../components/Images/redphoneIcon.png';
 
 const plywoodItems = [
     {
@@ -182,9 +183,9 @@ export default function Categories({params} : {params: {id :string }}) {
         <section className="flex flex-col  bg-white">
             <Navbar/>
             <div className="flex m-4">
-                <div className="flex justify-between">
+                <div className="md:flex justify-between">
                     <div className="flex-1 flex items-center m-auto justify-center uppercase font-bold">{params.id}</div>
-                    <div className="flex flex-1 flex-col">
+                    <div className="flex flex-1 flex-col mt-[10px]">
                         <div className="flex-1 grid grid-cols-2 gap-4">
                         {categoryItems?.map((item: any, index: any) => {
                             return (
@@ -206,11 +207,18 @@ export default function Categories({params} : {params: {id :string }}) {
             <div className="flex">
                 <Footer/>
             </div>
-            <Link target="_blank" href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[70vh]'>
+            <Link target="_blank" href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[69vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}
             src={whatsappLogo}
+          />
+        </Link>
+        <Link target="_blank" href="tel:9899027343" className='md:hidden fixed z-200 left-[50px] top-[70vh]'>
+          <Image
+            alt="phoneIcon"
+            style={{width:'50px', height: '50px'}}
+            src={phoneIcon}
           />
         </Link>
         </section>
