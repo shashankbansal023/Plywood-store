@@ -19,7 +19,7 @@ export default function Footer(){
                     <Link href="/categories/plywood" className="text-sm">
                     Plywood
                     </Link>
-                    <Link href="/categories/hdhmr-board" className="text-sm">
+                    <Link href="/categories/hdhmr" className="text-sm">
                         HDHMR
                     </Link>
                     <Link href="/categories/laminates"   className=" text-sm">
