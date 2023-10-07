@@ -10,7 +10,7 @@ import flushDoor from '../components/Images/flush-door.jpeg';
 import whatsappLogo from '../components/Images/whatsapp-icon.gif';
 import bestQualityPic from '../components/Images/icons8-whatsapp-color/best-quality.jpeg';
 import bestPricePic from '../components/Images/icons8-whatsapp-color/best-price.jpeg';
-import phoneIcon from '../components/Images/redphoneIcon.png';
+import phoneIcon from '../components/Images/redPhoneIcon.png';
 
 export const metadata: Metadata = {
   title: 'Krishna Timber and Plywood | Buy Plywood, HDHMR board , Flush Door at Best Prices - Dealers & Suppliers , Retailers',

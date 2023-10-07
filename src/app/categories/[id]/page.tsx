@@ -26,7 +26,7 @@ import sunmicaLight from '../../../components/Images/sunmica-light-brown.jpeg';
 import sunmicaWhite from '../../../components/Images/sunmica-white.jpeg';
 import sunmicaDark from '../../../components/Images/sunmica-dark-brown.jpeg';
 import sunmicaDarkImage from '../../../components/Images/sunmica-dark-image.jpeg';
-import phoneIcon from '../../../components/Images/redphoneIcon.png';
+import phoneIcon from '../../../components/Images/redPhoneIcon.png';
 
 const plywoodItems = [
     {
