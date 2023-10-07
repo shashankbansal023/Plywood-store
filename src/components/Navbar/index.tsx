@@ -14,7 +14,7 @@ export default function Navbar() {
    
     const [isMenuOpen , setMenuOpen] = useState(false);
     return (
-        <section className="flex bg-white w-[100vw] p-[10px] items-center border border-b-[1px] border-grey">
+        <section className="flex bg-white w-[100%] p-[10px] items-center border border-b-[1px] border-grey">
             <nav className="flex justify-between w-[100%]">
             <div className="flex items-center">
                  <Link href="/" className="flex items-center text-black font-bold">
@@ -37,7 +37,7 @@ export default function Navbar() {
             </Link>
             <Link href="/categories/plywood" className=" text-sm">Plywood</Link>
             <Link href="/categories/hdhmr" className=" text-sm">HDHMR</Link>
-            {/* <Link href="/categories/block-board" className=" text-sm">Block Board</Link> */}
+            <Link href="/categories/veneers" className=" text-sm">Veneers</Link>
             <Link href="/categories/flush-door" className=" text-sm">Flush Door</Link>
             <Link href="/categories/mdf" className="text-sm">MDF</Link>
             <Link href="/categories/adhesives" className=" text-sm">Adhesives</Link>
@@ -68,12 +68,12 @@ export default function Navbar() {
                             style={{ width:"30px" , height:"30px", color: 'white'}}
                         />
                     </button>
-                    <Link href="/categories/plywood" className="text-lg">Plywood</Link>
-                    <Link href="/categories/hdhmr" className=" text-lg">HDHMR</Link>
-                    {/* <Link href="/categories/block-board" className=" text-sm">Block Board</Link> */}
-                    <Link href="/categories/flush-door" className=" text-lg">Flush Door</Link>
-                    <Link href="/categories/mdf" className="text-lg">MDF</Link>
-                    <Link href="/categories/adhesives" className=" text-lg">Adhesives</Link>
+                    <Link href="/categories/plywood" className="text-lg uppercase font-medium">Plywood</Link>
+                    <Link href="/categories/hdhmr" className=" text-lg uppercase font-medium">HDHMR</Link>
+                    <Link href="/categories/veneers" className=" text-lg uppercase font-medium">Veneers</Link>
+                    <Link href="/categories/flush-door" className=" text-lg uppercase font-medium">Flush Door</Link>
+                    <Link href="/categories/mdf" className="text-lg uppercase font-medium">MDF</Link>
+                    <Link href="/categories/adhesives" className=" text-lg uppercase font-medium">Adhesives</Link>
                 </div>
             </section>
             </nav>

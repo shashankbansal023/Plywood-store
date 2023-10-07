@@ -11,14 +11,17 @@ import whatsappLogo from '../components/Images/whatsapp-icon.gif';
 import bestQualityPic from '../components/Images/icons8-whatsapp-color/best-quality.jpeg';
 import bestPricePic from '../components/Images/icons8-whatsapp-color/best-price.jpeg';
 import phoneIcon from '../components/Images/redPhoneIcon.png';
+import moulding from '../components/Images/moldings.webp';
+import veneerPic from '../components/Images/veneer-pic.webp';
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Krishna Timber and Plywood | Buy Plywood, HDHMR board , Flush Door at Best Prices - Dealers & Suppliers , Retailers',
   description: 'Krishnatimberandplywood.in is an online portal and leading supplier and dealer of plywood , HDHMR board , flush door, laminates, MDF, veneer, flush door, block board and adhesives. Buy genuine products at best prices.',
   keywords: "plywood dealers, hdhmr board delhi,hdhmr board price, plywood companies in delhi, buy laminates, mdf dealers delhi, plywood suppliers, krishna timber and plywood"
 }
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer';
+
 
 export default function Home() {
   return (
@@ -34,9 +37,9 @@ export default function Home() {
           style={{width: '100%' , height:'40vh'}}
         />
         </div>
-        <div className="flex flex-col gap-[10px] items-center py-[20px] w-screen bg-white m-4">
+        <div className="flex flex-col gap-[10px] items-center py-[20px] w-[100%] bg-white">
           <h1 className='font-extrabold text-[24px]'>Choose a category</h1>
-          <div className='flex gap-[20px] flex-wrap items-center justify-center'>
+          <div className='flex gap-[10px] md:gap-[20px] flex-wrap items-center justify-center w-[98%]'>
               <Link href="/categories/plywood">
                   <div className='flex flex-col gap-[15px]'>
                     <Image
@@ -72,6 +75,17 @@ export default function Home() {
                     <span className='text-center uppercase font-bold'> Sunmica Laminates </span>
                   </div>
               </Link>
+              <Link href="/categories/veneers">
+                  <div className='flex flex-col gap-[10px]'>
+                    <Image
+                      src={veneerPic}
+                      width={300}
+                      style={{height: '300px' , backgroundColor:'bg-grey-600'}}
+                      alt='Molding'
+                    />
+                    <span className='text-center uppercase font-bold w-[250px]'>Veneers</span>
+                  </div>
+              </Link>
               <Link href="/categories/flush-door">
                   <div className='flex flex-col gap-[10px]'>
                     <Image
@@ -81,6 +95,17 @@ export default function Home() {
                       alt='Flush door'
                     />
                     <span className='text-center uppercase font-bold'> Flush Door </span>
+                  </div>
+              </Link>
+              <Link href="/categories/mouldings">
+                  <div className='flex flex-col gap-[10px]'>
+                    <Image
+                      src={moulding}
+                      width={300}
+                      style={{height: '250px' , backgroundColor:'bg-grey-600'}}
+                      alt='Molding'
+                    />
+                    <span className='text-center uppercase font-bold w-[250px]'> Molding & Margins, PVC Tape,Door Frame, etc  </span>
                   </div>
               </Link>
           </div>
@@ -98,7 +123,7 @@ export default function Home() {
             />
         </div>
         <Footer/>
-        <Link target='_blank' href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[69vh]'>
+        <Link target='_blank' href="https://wa.me/9899027343?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" className='fixed z-200 right-[50px] top-[69vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}

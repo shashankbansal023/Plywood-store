@@ -9,9 +9,7 @@ import greenPly from '../../../components/Images/greenply.png';
 import actionTesa from '../../../components/Images/HDHMRboard.webp';
 import whiteHDHMR from '../../../components/Images/color-hdhmr.webp';
 import fabricHdhmr from '../../../components/Images/fabric-hdhmr.webp';
-import flushDoor from '../../../components/Images/flush-door.jpeg'
 import flushDoorPic from '../../../components/Images/flush-door-pic.jpeg';
-import laminatedFlushDoor from '../../../components/Images/flush-door-laminated.webp';
 import mdfBoard from '../../../components/Images/mdf-boards.jpg';
 import mdf from '../../../components/Images/mdf.jpeg';
 import mdfThick from '../../../components/Images/mdfBoard.jpeg';
@@ -27,6 +25,20 @@ import sunmicaWhite from '../../../components/Images/sunmica-white.jpeg';
 import sunmicaDark from '../../../components/Images/sunmica-dark-brown.jpeg';
 import sunmicaDarkImage from '../../../components/Images/sunmica-dark-image.jpeg';
 import phoneIcon from '../../../components/Images/redPhoneIcon.png';
+import crossBond from '../../../components/Images/crossbond.jpeg';
+import pvcDoor from '../../../components/Images/pvcDoor.jpeg';
+import hdhMrBoard from '../../../components/Images/hdhmr-board.jpeg';
+import qualityflushDoor from '../../../components/Images/quality-flush-door.jpeg';
+import duroTouch from '../../../components/Images/duro-touch.jpeg';
+import pvcSheet from '../../../components/Images/pvc-sheet.jpeg';
+import molding from '../../../components/Images/molding-2.jpeg';
+import pvcTape from '../../../components/Images/pvc-tape.jpeg';
+import doorFrame from '../../../components/Images/door-frame.jpeg';
+import flushDoorGroup from '../../../components/Images/flush-door-3.jpeg';
+import veneerPic from '../../../components/Images/veneer-2.jpg';
+import veneer from '../../../components/Images/veneer-3.jpeg';
+import veneerImg from '../../../components/Images/veneer-pic.webp';
+import veneerDoor from '../../../components/Images/veneer.jpeg';
 
 const plywoodItems = [
     {
@@ -48,6 +60,11 @@ const plywoodItems = [
         title: 'Greenply Plywood',
         description: '',
         image: <Image src={greenPly} width={400} height={400} alt="18mm plywood"/>,
+    },
+    {
+        title: 'Duro Touch Plywood',
+        description: '',
+        image: <Image src={duroTouch} width={400} height={400} alt="18mm duro-touch plywood"/>,
     }
 ]
 
@@ -66,25 +83,41 @@ const hdhMrBoards = [
         title: 'HDHMR board - Fabric',
         description: '8ft * 4ft with 18mm thickness',
         image: <Image src={fabricHdhmr} width={400} height={400} alt="Action tesa HDHMR board Fabric"/>
-    }
+    },
+    {
+        title: 'Crossbond HDMR Board',
+        description: '8ft * 4ft with 18mm thickness',
+        image: <Image src={crossBond} width={400} height={400} alt="Crossbond HDHMR board"/>
+    },
+    {
+        title: 'HDMR Board',
+        description: '8ft * 4ft with 18mm thickness',
+        image: <Image src={hdhMrBoard} width={400} height={400} alt="HDHMR board Fabric"/>
+    },
 ]
 
 const flushDoorItems = [
     {
+        title: 'PVC Door',
+        description: '',
+        image: <Image src={pvcDoor} width={400} height={400} alt="Laminated Flush Door"/>
+    },
+    {
         title: 'Flush Door',
         description: '',
-        image: <Image src={flushDoor} width={400} height={400} alt="Flush Door"/>
+        image: <Image src={qualityflushDoor} width={400} height={400} alt="Laminated Flush Door"/>
+    },
+    {
+        title: 'Flush Door',
+        description: '',
+        image: <Image src={flushDoorGroup} width={400} height={400} alt="Flush Door"/>
     },
     {
         title: 'Flush Door',
         description: '',
         image: <Image src={flushDoorPic} width={400} height={400} alt="Flush Door"/>
     },
-    {
-        title: 'Laminated Flush Door',
-        description: '',
-        image: <Image src={laminatedFlushDoor} width={400} height={400} alt="Laminated Flush Door"/>
-    }
+   
 ]
 
 const mdfBoards = [
@@ -102,6 +135,29 @@ const mdfBoards = [
         title: 'MDF Board',
         description: '',
         image: <Image src={mdfThick} width={400} height={400} alt="Action tesa HDHMR board"/>
+    },
+]
+
+const veneerItems = [
+    {
+        title: 'Veneer Laminates',
+        description: '',
+        image: <Image src={veneer} width={400} height={400} alt="Veneer Laminates"/>
+    },
+    {
+        title: 'Veneer',
+        description: '',
+        image: <Image src={veneerPic} width={400} height={400} alt="Veneer Laminates"/>
+    },
+    {
+        title: 'Veneer',
+        description: '',
+        image: <Image src={veneerImg} width={400} height={400} alt="Veneer Laminates"/>
+    },
+    {
+        title: 'Veneer Board',
+        description: '',
+        image: <Image src={veneerDoor} width={400} height={400} alt="Veneer Laminates"/>
     },
 ]
 
@@ -157,6 +213,30 @@ const sunmicaLaminates = [
     }
 ]
 
+const moldingAndMargins = [
+    {
+        title: 'Moulding & Margins',
+        description: '',
+        image: <Image src={molding} width={400} height={300} alt="Moulding"/>,
+    },
+    {
+        title: 'PVC Sheet',
+        description: '',
+        image: <Image src={pvcSheet} width={400} height={300} alt="PVC Sheet"/>,
+    },
+    {
+        title: 'PVC tape',
+        description: '',
+        image: <Image src={pvcTape} width={400} height={400} alt="PVC Tape"/>,
+    },
+    {
+        title: 'Door Frame',
+        description: '',
+        image: <Image src={doorFrame} width={400} height={400} alt="Door Frame"/>,
+    },
+
+]
+
 
 export default function Categories({params} : {params: {id :string }}) {
 
@@ -174,6 +254,10 @@ export default function Categories({params} : {params: {id :string }}) {
                 return fevicolItems;
             case "laminates":
                 return sunmicaLaminates;
+            case "mouldings":
+                return moldingAndMargins;
+            case 'veneers':
+                return veneerItems;
             default: 
                 return plywoodItems;
         }
@@ -207,7 +291,7 @@ export default function Categories({params} : {params: {id :string }}) {
             <div className="flex">
                 <Footer/>
             </div>
-            <Link target="_blank" href="https://wa.me/9899027343" className='fixed z-200 right-[50px] top-[69vh]'>
+            <Link target="_blank" href="https://wa.me/9899027343?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" className='fixed z-200 right-[50px] top-[69vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}

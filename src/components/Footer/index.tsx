@@ -5,7 +5,7 @@ import phoneIcon from '../Images/icons8-call .gif';
 
 export default function Footer(){
     return (
-        <div className="flex flex-wrap bg-white gap-[30px] p-10 border border-t-grey w-full">
+        <div className="flex flex-wrap bg-white gap-[30px] p-10 border border-t-grey w-[100%]">
             <div className="flex flex-col gap-[10px]">
             <Link href="/" className="flex text-black font-bold uppercase text-lg">
                 <Image src={logo} style={{width: '60px' , height:'60px',borderRadius:'50%', border: '1px solid grey'}} alt={"Krishna Timber and Plywood | Plywood store "}/>
@@ -32,6 +32,12 @@ export default function Footer(){
                     <Link href="/categories/mdf"  className="text-sm">
                         MDF
                     </Link>
+                    <Link href="/categories/veneers"  className="text-sm">
+                        Veneers
+                    </Link>
+                    <Link href="/categories/mouldings"  className="text-sm">
+                        Misc.
+                    </Link>
              </div>
             
             </div>
@@ -43,7 +49,7 @@ export default function Footer(){
                 </div>
                
             </div>
-            <Link href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
+            <Link target="_blank" href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
                      <Image
                         alt="Krishna Timber and Plywood Logo"
                         src={phoneIcon}
