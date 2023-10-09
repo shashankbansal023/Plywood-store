@@ -33,6 +33,7 @@ export default function Home() {
         <Image
           src={plywoodPic}
           objectFit='contain'
+          loading='eager'
           alt="Krishna Timber and Plywood | Plywood, HDHMR board , laminates , MDF at best prices."
           style={{width: '100%' , height:'40vh'}}
         />
@@ -52,7 +53,7 @@ export default function Home() {
                     <span className='text-center uppercase font-bold'> Plywood </span>
                   </div>
               </Link>
-              <Link href="/categories/hdhmr-board">
+              <Link href="/categories/hdhmr">
                   <div className='flex flex-col gap-[10px]'>
                     <Image
                       src={hdhmrBoardPic}
