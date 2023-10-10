@@ -33,7 +33,6 @@ export default function Home() {
         <Image
           src={plywoodPic}
           objectFit='contain'
-          loading='eager'
           alt="Krishna Timber and Plywood | Plywood, HDHMR board , laminates , MDF at best prices."
           style={{width: '100%' , height:'40vh'}}
         />
