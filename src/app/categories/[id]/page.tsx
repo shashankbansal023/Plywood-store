@@ -284,7 +284,10 @@ export default function Categories({params} : {params: {id :string }}) {
                         })}
                         </div>
                         <div className="flex justify-center font-light mt-[10px]">Available in all sizes . </div>
-                        <div className="flex justify-center font-medium mt-[10px]">Contact for guidance and any query related .</div>
+                        <div className="flex justify-center font-light mt-[10px]">All Designs are available. </div>
+                        <div className="flex justify-center font-medium mt-[10px]">
+                            Please contact for prices . Best Prices are available in Delhi.
+                        </div>
                     </div>
                 </div>
             </div>
