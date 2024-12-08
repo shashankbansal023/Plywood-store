@@ -60,7 +60,7 @@ export default function Navbar() {
                     />
                 </Link>
                 </div>
-                <div className={`flex flex-col items-center justify-center gap-2 bg-white absolute top-0 left-0 w-[100vw] h-[100vh] ${!isMenuOpen ?'hidden' : 'overflow-hidden'}`}>
+                <div className={`flex flex-col items-center justify-center gap-2 bg-white absolute top-0 left-0 w-[100%] h-[100vh] z-30 ${!isMenuOpen ?'hidden' : 'overflow-hidden'}`}>
                     <button className="flex gap-[5px] text-sm mt-[5px] mr-[20px] top-2 right-2 absolute font-bold" onClick={() => setMenuOpen(false)}>
                         <Image
                             alt="Menu Icon"
