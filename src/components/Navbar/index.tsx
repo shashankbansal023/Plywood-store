@@ -35,12 +35,12 @@ export default function Navbar() {
                     />
                     +91-9899027343
             </Link>
-            <Link href="/categories/plywood" className=" text-sm">Plywood</Link>
-            <Link href="/categories/hdhmr" className=" text-sm">HDHMR</Link>
-            <Link href="/categories/veneers" className=" text-sm">Veneers</Link>
-            <Link href="/categories/flush-door" className=" text-sm">Flush Door</Link>
-            <Link href="/categories/mdf" className="text-sm">MDF</Link>
-            <Link href="/categories/adhesives" className=" text-sm">Adhesives</Link>
+            <Link href="/categories/plywood" className=" text-sm uppercase font-bold">Plywood</Link>
+            <Link href="/categories/hdhmr" className=" text-sm uppercase font-bold">HDHMR</Link>
+            <Link href="/categories/veneers" className=" text-sm uppercase font-bold">Veneers</Link>
+            <Link href="/categories/flush-door" className=" text-sm uppercase font-bold">Flush Door</Link>
+            <Link href="/categories/mdf" className="text-sm uppercase font-bold">MDF</Link>
+            <Link href="/categories/adhesives" className=" text-sm uppercase font-bold">Adhesives</Link>
             </section>
             <section className="flex items-center md:hidden">
                 <div className="flex items-center">

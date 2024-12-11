@@ -128,6 +128,16 @@ export default function Home() {
               alt="Best Quality Plywood"
             />
         </div>
+        <div className='flex justify-center items-center my-2'>
+        <a
+        href="https://o23zkekqkj0pqojs.public.blob.vercel-storage.com/sunmica-laminates/Advance-Omega-0.8mm-Folder1-ZlCuk1jOMz1UUzEdW8njFWdRARhzCo.pdf"
+        download="SampleFile.pdf"
+        target='_blank'
+        className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-[90%] max-w-[max-content]"
+      >
+        Download Sunmica Laminates 0.8mm PDF
+      </a>
+        </div>
         <Footer/>
         <Link target='_blank' href="https://wa.me/9899027343?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" 
            className='fixed z-200 right-[20px] top-[80vh]'>
