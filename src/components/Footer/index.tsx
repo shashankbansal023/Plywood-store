@@ -49,13 +49,13 @@ export default function Footer(){
                 </div>
                
             </div>
-            <Link target="_blank" href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
+            <Link target="_blank" href="tel:8750110868" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
                      <Image
                         alt="Krishna Timber and Plywood Logo"
                         src={phoneIcon}
                         style={{ width:"30px" , height:"30px", color: 'white'}}
                     />
-                    +91-9899027343
+                    +91-8750110868
             </Link>
             
         </div>

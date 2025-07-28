@@ -27,13 +27,13 @@ export default function Navbar() {
                   </Link>
             </div>
             <section className="hidden md:flex gap-[10px] text-black items-center">
-            <Link href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
+            <Link href="tel:8750110868" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
                      <Image
                         alt="Krishna Timber and Plywood Logo"
                         src={phoneIcon}
                         style={{ width:"30px" , height:"30px", color: 'white'}}
                     />
-                    +91-9899027343
+                    +91-8750110868
             </Link>
             <Link href="/categories/plywood" className=" text-sm uppercase font-bold">Plywood</Link>
             <Link href="/categories/hdhmr" className=" text-sm uppercase font-bold">HDHMR</Link>
@@ -44,13 +44,13 @@ export default function Navbar() {
             </section>
             <section className="flex items-center md:hidden">
                 <div className="flex items-center">
-                <Link target="_blank" href="tel:9899027343" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
+                <Link target="_blank" href="tel:8750110868" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold">
                      <Image
                         alt="Krishna Timber and Plywood Logo"
                         src={phoneIcon}
                         style={{ width:"30px" , height:"30px", color: 'white'}}
                     />
-                    9899027343
+                    8750110868
                 </Link>
                 <Link href="" className="flex gap-[5px] text-sm mt-[5px] mr-[20px] font-bold" onClick={() => setMenuOpen(true)}>
                      <Image
