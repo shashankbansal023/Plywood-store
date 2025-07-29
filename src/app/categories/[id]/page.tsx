@@ -294,7 +294,7 @@ export default function Categories({params} : {params: {id :string }}) {
             <div className="flex">
                 <Footer/>
             </div>
-            <Link target="_blank" href="https://wa.me/8750110868?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" className='fixed z-200 right-[50px] top-[69vh]'>
+            <Link target="_blank" href="https://wa.me/918750110868?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" className='fixed z-200 right-[50px] top-[69vh]'>
           <Image
             alt="whatsapp"
             style={{width:'60px' , height: '60px'}}

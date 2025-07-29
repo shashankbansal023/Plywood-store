@@ -139,7 +139,7 @@ export default function Home() {
       </a>
         </div>
         <Footer/>
-        <Link target='_blank' href="https://wa.me/8750110868?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" 
+        <Link target='_blank' href="https://wa.me/918750110868?text=Hi+%2C%0D%0AI+want+to+get+best+quality+and+affordable+plywood%2C+HDHMR+board+%2C+flush+door%2C+etc.+at+Krishna+Timber+and+Plywood.+" 
            className='fixed z-200 right-[20px] top-[80vh]'>
           <Image
             alt="whatsapp"
